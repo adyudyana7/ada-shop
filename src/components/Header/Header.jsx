@@ -3,7 +3,7 @@ import { Search, UserCircle2, ShoppingBag, Menu } from "lucide-react";
 
 function Header() {
   return (
-    <header className="flex justify-between py-4">
+    <header className="flex justify-between py-4 px-8">
       <div className="flex ">
         <Menu className="block  md:hidden" color="#000" strokeWidth={1.25} />
         <h1 className="text-base md:text-2xl"> 3legant</h1>
