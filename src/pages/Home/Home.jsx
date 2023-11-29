@@ -20,6 +20,7 @@ function Home() {
       <ProductList />
       <Article />
       <Link />
+
       <Footer />
     </div>
   );
