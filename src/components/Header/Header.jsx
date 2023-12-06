@@ -15,12 +15,19 @@ function Header() {
         <Link to="/contacts">Contacts</Link>
       </nav>
       <div className="flex">
-        <Search className="hidden md:block" color="#000" strokeWidth={1.25} />
-        <UserCircle2
-          className="hidden md:block "
-          color="#000"
-          strokeWidth={1.25}
-        />
+        <Link to="/sign-in">
+          {" "}
+          <Search className="hidden md:block" color="#000" strokeWidth={1.25} />
+        </Link>
+        <Link to="/sign-up">
+          {" "}
+          <UserCircle2
+            className="hidden md:block "
+            color="#000"
+            strokeWidth={1.25}
+          />
+        </Link>
+
         <ShoppingBag color="#000" strokeWidth={1.25} />
       </div>
     </header>

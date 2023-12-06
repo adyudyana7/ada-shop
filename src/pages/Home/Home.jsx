@@ -7,6 +7,7 @@ import HeroText from "./HeroText";
 import Catigories from "./components/Catigories";
 import Discount from "./components/Discount";
 import ProductList from "../../components/ProductList/ProductList";
+import { Info } from "lucide-react";
 
 function Home() {
   return (
@@ -16,11 +17,10 @@ function Home() {
       <HeroText />
       <Catigories />
       <Discount />
-
+      <Info />
       <ProductList />
       <Article />
       <Link />
-
       <Footer />
     </div>
   );

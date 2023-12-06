@@ -1,3 +1,5 @@
+import { RatIcon } from "lucide-react";
+
 function ServiceCard(props) {
   return (
     <div className="py-8 px-4 bg-[#F3F5F7] flex-1">
