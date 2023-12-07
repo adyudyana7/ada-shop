@@ -5,10 +5,13 @@ import Details from "./pages/Details/Details";
 import SignUp from "./SignUp/SignUp";
 // import { SignalIcon } from "lucide-react";
 import SignIn from "./pages/Home/SignIn/SignIn";
+import { Toaster } from "sonner";
 
 function App() {
   return (
     <BrowserRouter>
+      <Toaster position="top-center" richColors />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
