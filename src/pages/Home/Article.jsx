@@ -10,6 +10,7 @@ function Article() {
       <div className="flex gap-x-6 text-center justify-center">
         <nav>
           <img src={img11} alt="" />
+
           <h2>7 ways to decor your home</h2>
           <p>
             Read More <ArrowRight />

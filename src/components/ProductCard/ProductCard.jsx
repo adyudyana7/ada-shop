@@ -59,7 +59,7 @@ function ProductCard({ product }) {
     }
   }
   return (
-    <div
+<d    iv
       className="hover:shadow-2xl hover:scale-[1.05] duration-500 rounded-2xl p-3 hover:cursor-pointer"
       onClick={handleClick}
     >
